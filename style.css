@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4caf50; /* Green background */
+  color: white;
+  padding: 20px;
+  color: white; /* Warna putih */
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+nav ul {
+  text-align: left;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  max-width: 800px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Space out the items */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  margin: 20px 0;
+}
+
+.flex-item {
+  flex: 1; /* Allow items to grow */
+  margin: 10px; /* Space between items */
+  min-width: 200px; /* Minimum width for items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  padding: 15px; /* Inner padding */
+  border-radius: 8px; /* Rounded corners */
+  background: #f9f9f9; /* Light background */
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly between items */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin: 20px 0;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px; /* Adds a slight border radius */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f4f4f4;
+}
